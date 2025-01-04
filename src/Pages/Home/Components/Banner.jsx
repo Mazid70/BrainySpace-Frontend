@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'animate.css'
 const Banner = () => {
   const [isRotate, setRotate] = useState(true);
   setTimeout(() => {
@@ -7,8 +8,8 @@ const Banner = () => {
   return (
     <section className="text-white pt-20 h-screen">
       <div className="h-[700px] w-[650px] rounded-full bg-gradient-to-tr from-pink-900 to-violet-900 blur-[90px] absolute opacity-70 z-10 top-1/2 -translate-y-1/2 left-56"></div>
-      <div className="flex items-center mt-24 gap-5">
-        <div className="z-20 flex-1 flex justify-center relative translate-x-14">
+      <div className=" flex items-center mt-24 gap-5">
+        <div className="z-20 flex-1 flex justify-center relative translate-x-14 animate__animated animate__fadeIn ">
           <div className="h-[520px] w-[320px] p-[6px] bg-gradient-to-b from-sky-500 to-pink-600 rounded-3xl z-50">
             <div className="h-full w-full bg-[#020223] rounded-3xl p-2">
               <img src="/assets/group.png" alt="" className="" />
